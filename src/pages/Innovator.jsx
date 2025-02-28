@@ -17,7 +17,6 @@ function Innovator() {
         </p>
       </section>
 
-      {/* Innovator Image Section */}
       <div className="md:w-1/2 md:pl-8 mt-6 md:mt-0">
         <img src={iimage} alt="Kojo Saka Darkwah" className="w-full h-auto rounded-lg" />
       </div>
