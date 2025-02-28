@@ -1,7 +1,7 @@
 import React from "react";
 import iimage from "../assets/iimage.jpg";
 
-function Innovator() {
+export function Innovator() {
   return (
     <div id="about" className="max-w-5xl mx-auto p-10 bg-white shadow-lg mt-10 rounded-lg flex flex-col md:flex-row items-center text-center md:text-left">
       {/* About the Innovator Text Section */}
@@ -24,4 +24,3 @@ function Innovator() {
   );
 }
 
-export default Innovator;

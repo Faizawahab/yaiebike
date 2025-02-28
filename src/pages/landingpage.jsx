@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Product from "./product";
-import Innovator from "./innovator";
 import Contact from "./Contact";
 import image1 from '../assets/car5.jpg';
 import image2 from '../assets/car6.jpeg';
 import image3 from '../assets/car7.jpg';
+import Innovator from "./innovator";
 
 const images = [
   `url(${image1})`,
@@ -49,7 +49,7 @@ const LandingPage = () => {
       <div>
         <div className="min-h-screen bg-gray-50 text-gray-900">
           <Product />
-          <Innovator />
+          <Innovator/>
           <Contact />
         </div>
       </div>
