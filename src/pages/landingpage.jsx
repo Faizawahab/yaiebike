@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import image1 from '../assets/car5.jpg';
 import image2 from '../assets/car6.jpeg';
 import image3 from '../assets/car7.jpg';
-import Innovator from "./innovator";
+import Inno from "./Inno";
 
 const images = [
   `url(${image1})`,
@@ -26,7 +26,7 @@ const LandingPage = () => {
 
   return (
     <div>
-      <div className="relative h-screen overflow-hidden">
+      <div className="relative h-screen overflow-hidden ">
         {/* Hero Section */}
         <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 z-10 text-center">
           <section className=" text-white py-20">
@@ -49,7 +49,7 @@ const LandingPage = () => {
       <div>
         <div className="min-h-screen bg-gray-50 text-gray-900">
           <Product />
-          <Innovator/>
+          <Inno/>
           <Contact />
         </div>
       </div>
