@@ -30,8 +30,9 @@ const LandingPage = () => {
         {/* Hero Section */}
         <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 z-10 text-center">
           <section className=" text-white py-20">
-            <h1 className="text-5xl font-bold">Welcome E-Bike</h1>
+            <h1 id="logo" className=" text-5xl font-bold">Welcome E-Bike</h1>
             <p className="text-l mt-4"> Mobility with Smart Adaptive Technology</p>
+            <div><button className="px-5 py-3 rounded-xl mt-7 hover:bg-blue-700 bg-blue-500"> <a href="#contact">Contact Us</a></button></div>
           </section>
         </div>
 

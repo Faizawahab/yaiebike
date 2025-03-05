@@ -18,7 +18,7 @@ function Contact() {
                 name="First Name" 
                 id="firstName" 
                 required 
-                className="border border-gray-300 p-2 rounded-lg w-full"
+                className="border border-blue-500 p-2 rounded-lg w-full"
               />
             </div>
 
@@ -29,7 +29,7 @@ function Contact() {
                 name="Last Name" 
                 id="lastName" 
                 required 
-                className="border border-gray-300 p-2 rounded-lg w-full"
+                className="border border-blue-500 p-2 rounded-lg w-full"
               />
             </div>
 
@@ -40,7 +40,7 @@ function Contact() {
                 name="Email" 
                 id="email" 
                 required 
-                className="border border-gray-300 p-2 rounded-lg w-full"
+                className="border border-blue-500 p-2 rounded-lg w-full"
               />
             </div>
 
@@ -51,7 +51,7 @@ function Contact() {
                 id="message" 
                 required 
                 rows="4"
-                className="border border-gray-300 p-2 rounded-lg w-full"
+                className="border border-blue-500 p-2 rounded-lg w-full"
               ></textarea>
             </div>
 
